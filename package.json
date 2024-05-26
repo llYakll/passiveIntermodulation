@@ -1,19 +1,22 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "m13",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
+    "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "seed": "node seeds/index.js",
+    "setup-db": "node db/setupDatabase.js",
+    "sync-db": "node db/dbSync.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "www.github.com/llYakll/passiveIntermodulation.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "llYakll",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0",
