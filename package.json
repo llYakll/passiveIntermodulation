@@ -9,7 +9,8 @@
     "seed": "node seeds/index.js",
     "setup-db": "node db/setupDatabase.js",
     "sync-db": "node db/dbSync.js",
-    "test": "jest"
+    "test": "jest",
+    "reset": "node db/resetDB.js"
   },
   "repository": {
     "type": "git",
